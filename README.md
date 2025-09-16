@@ -1,12 +1,134 @@
-# React + Vite
+📌 Cadastro de Usuários – React + Node.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação completa de cadastro de usuários, com front-end em React e back-end em Node.js/Express, integrados a um banco de dados MongoDB via Prisma.
+O projeto permite cadastrar, listar, atualizar e excluir usuários de forma simples.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+Front-end:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+
+- Styled-components
+
+- Axios
+
+Back-end:
+
+- Node.js
+
+- Express
+
+- Prisma
+
+- MongoDB
+
+- CORS
+
+---
+
+📂 Estrutura do projeto
+
+O sistema é dividido em dois repositórios:
+
+Front-end (React) → este repositório: cadastro-usuarios
+
+Back-end (API) → API Cadastro de Usuários
+
+---
+
+⚙️ Instalação e execução
+🔹 1. Clonar os repositórios
+# Clonar o front-end (React)
+git clone https://github.com/seu-usuario/cadastro-usuarios.git
+cd cadastro-usuarios
+
+# Clonar o back-end (API)
+git clone https://github.com/llcfernandes/api-cadastro-de-usuarios.git
+cd api-cadastro-de-usuarios
+
+---
+
+🔹 2. Rodar a API (Back-end)
+
+Acesse a pasta da API:
+
+cd api-cadastro-de-usuarios
+
+
+Instale as dependências:
+
+yarn install
+
+
+(Foi configurado yarn neste projeto, mas pode aparecer também npm em alguns lugares porque foi usado durante os estudos. Priorize o uso do yarn).
+
+Configure o arquivo .env na raiz do projeto:
+
+DATABASE_URL="mongodb+srv://<usuario>:<senha>@<cluster>/?retryWrites=true&w=majority&appName=Users"
+
+
+Gere o Prisma Client:
+
+npx prisma generate
+
+
+Inicie a API:
+
+yarn dev
+
+
+🔗 A API ficará disponível em:
+http://localhost:3000
+
+---
+
+🔹 3. Rodar o Front-end (React)
+
+Acesse a pasta do front:
+
+cd cadastro-usuarios
+
+
+Instale as dependências:
+
+yarn install
+
+
+Inicie a aplicação:
+
+yarn start
+
+
+🔗 O front ficará disponível em:
+http://localhost:5173
+ (ou a porta configurada pelo Vite/React)
+
+ ---
+
+🔑 Funcionalidades
+
+- Criar novo usuário (nome, email, idade)
+
+- Listar todos os usuários
+
+- Atualizar informações de um usuário
+
+- Excluir usuário
+
+---
+
+📂 Estrutura simplificada do front
+cadastro-usuarios/
+│── src/
+│   ├── components/   # Componentes React
+│   ├── services/     # Configuração do Axios
+│   ├── styles/       # Estilização com styled-components
+│   └── App.jsx
+│── package.json
+
+---
+
+✍️ Autor: Lucas Fernandes
