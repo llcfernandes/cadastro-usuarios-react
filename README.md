@@ -33,7 +33,7 @@ Back-end:
 
 O sistema é dividido em dois repositórios:
 
-Front-end (React) → este repositório: cadastro-usuarios
+Front-end (React) → este repositório: cadastro-usuarios-react
 
 Back-end (API) → API Cadastro de Usuários
 
@@ -42,12 +42,12 @@ Back-end (API) → API Cadastro de Usuários
 ⚙️ Instalação e execução
 🔹 1. Clonar os repositórios
 # Clonar o front-end (React)
-git clone https://github.com/seu-usuario/cadastro-usuarios.git
-cd cadastro-usuarios
+git clone https://github.com/seu-usuario/cadastro-usuarios-react.git
+cd cadastro-usuarios-react
 
 # Clonar o back-end (API)
-git clone https://github.com/llcfernandes/api-cadastro-de-usuarios.git
-cd api-cadastro-de-usuarios
+git clone https://github.com/llcfernandes/api-cadastro-de-usuarios-node.git
+cd api-cadastro-de-usuarios-node
 
 ---
 
@@ -55,7 +55,7 @@ cd api-cadastro-de-usuarios
 
 Acesse a pasta da API:
 
-cd api-cadastro-de-usuarios
+cd api-cadastro-de-usuarios-node
 
 
 Instale as dependências:
@@ -121,7 +121,7 @@ http://localhost:5173
 ---
 
 📂 Estrutura simplificada do front
-cadastro-usuarios/
+cadastro-usuarios-react/
 │── src/
 │   ├── components/   # Componentes React
 │   ├── services/     # Configuração do Axios
