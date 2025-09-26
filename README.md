@@ -121,7 +121,9 @@ http://localhost:5173
 ---
 
 📂 Estrutura simplificada do front
+
 cadastro-usuarios-react/
+
 │── src/
 │   ├── components/   # Componentes React
 │   ├── services/     # Configuração do Axios
