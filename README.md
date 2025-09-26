@@ -125,10 +125,15 @@ http://localhost:5173
 cadastro-usuarios-react/
 
 │── src/
+
 │   ├── components/   # Componentes React
+
 │   ├── services/     # Configuração do Axios
+
 │   ├── styles/       # Estilização com styled-components
+
 │   └── App.jsx
+
 │── package.json
 
 ---
