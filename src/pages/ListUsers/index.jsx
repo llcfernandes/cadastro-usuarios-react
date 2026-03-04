@@ -42,7 +42,7 @@ const [users, setUsers] = useState([])
         {users.map((user) => (
           <CardUsers>
             <AvatarUser
-              src={`https://avatar.iran.liara.run/public?username=${user.id}`}
+              src={`https://api.dicebear.com/9.x/big-smile/svg?seed=${user.id}`}
             />
             <div>
               <h3>{user.name}</h3>
