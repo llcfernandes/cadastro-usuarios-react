@@ -1,8 +1,15 @@
 # 👥 User Management Dashboard
 
-Interface web desenvolvida em React para gerenciamento de usuários, consumindo uma API REST construída com Node.js, Express, Prisma e MongoDB.
+Interface web desenvolvida em React para gerenciamento de usuários, consumindo uma API REST construída com Node.js, Express, Prisma ORM e MongoDB.
 
-O projeto foi desenvolvido com foco na criação de uma aplicação full stack, aplicando conceitos de componentização, gerenciamento de rotas, consumo de APIs e organização escalável de código.
+O projeto foi desenvolvido com foco na criação de uma aplicação full stack, aplicando conceitos de componentização, gerenciamento de rotas, consumo de APIs, integração frontend/backend e organização escalável de código.
+
+---
+
+## 🌐 Aplicação Online
+
+**Deploy:**
+https://cadastro-usuarios-react-eight.vercel.app
 
 ---
 
@@ -64,6 +71,26 @@ Toda a comunicação com o backend é realizada através de requisições HTTP u
 ### Comunicação
 
 * Axios
+
+---
+
+## ☁️ Deploy
+
+### Frontend
+
+* Vercel
+
+### Backend
+
+* Render
+
+### Banco de Dados
+
+* MongoDB Atlas
+
+### ORM
+
+* Prisma ORM
 
 ---
 
@@ -136,10 +163,9 @@ MongoDB
 
 ## 🎥 Demonstração
 
-Vídeo do projeto em funcionamento:
+### Aplicação em Produção
 
-LinkedIn:
-https://www.linkedin.com/posts/lucasfernandes-fullstack_react-reactjs-node-ugcPost-7373852329009287168-AHSr/
+https://cadastro-usuarios-react-eight.vercel.app
 
 ---
 
@@ -151,6 +177,7 @@ https://www.linkedin.com/posts/lucasfernandes-fullstack_react-reactjs-node-ugcPo
 * Componentização
 * Gerenciamento de rotas
 * Integração Full Stack
+* Deploy de aplicações em produção
 
 ---
 
