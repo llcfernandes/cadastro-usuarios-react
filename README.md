@@ -1,141 +1,159 @@
-📌 Cadastro de Usuários – React + Node.js
+# 👥 User Management Dashboard
 
-Aplicação completa de cadastro de usuários, com front-end em React e back-end em Node.js/Express, integrados a um banco de dados MongoDB via Prisma.
-O projeto permite cadastrar, listar, atualizar e excluir usuários de forma simples.
+Interface web desenvolvida em React para gerenciamento de usuários, consumindo uma API REST construída com Node.js, Express, Prisma e MongoDB.
 
----
-
-🚀 Tecnologias utilizadas
-
-Front-end:
-
-- React
-
-- Styled-components
-
-- Axios
-
-Back-end:
-
-- Node.js
-
-- Express
-
-- Prisma
-
-- MongoDB
-
-- CORS
+O projeto foi desenvolvido com foco na criação de uma aplicação full stack, aplicando conceitos de componentização, gerenciamento de rotas, consumo de APIs e organização escalável de código.
 
 ---
 
-📂 Estrutura do projeto
+## 📖 Visão Geral
 
-O sistema é dividido em dois repositórios:
+A aplicação permite realizar operações completas de gerenciamento de usuários através de uma interface moderna e intuitiva.
 
-Front-end (React) → este repositório: cadastro-usuarios-react
+Principais funcionalidades:
 
-Back-end (API) → API Cadastro de Usuários
-
----
-
-⚙️ Instalação e execução
-🔹 1. Clonar os repositórios
-# Clonar o front-end (React)
-git clone https://github.com/seu-usuario/cadastro-usuarios-react.git
-cd cadastro-usuarios-react
-
-# Clonar o back-end (API)
-git clone https://github.com/llcfernandes/api-cadastro-de-usuarios-node.git
-cd api-cadastro-de-usuarios-node
+* Cadastro de usuários
+* Listagem de usuários
+* Atualização de informações
+* Remoção de usuários
+* Integração com API REST
+* Navegação entre páginas
+* Componentização reutilizável
 
 ---
 
-🔹 2. Rodar a API (Back-end)
+## 🚀 Funcionalidades
 
-Acesse a pasta da API:
+### Cadastro de Usuários
 
-cd api-cadastro-de-usuarios-node
+Permite registrar novos usuários informando:
 
+* Nome
+* E-mail
+* Idade
 
-Instale as dependências:
+### Gerenciamento
 
-yarn install
+* Visualização de usuários cadastrados
+* Atualização de registros existentes
+* Exclusão de usuários
 
+### Integração com API
 
-(Foi configurado yarn neste projeto, mas pode aparecer também npm em alguns lugares porque foi usado durante os estudos. Priorize o uso do yarn).
-
-Configure o arquivo .env na raiz do projeto:
-
-DATABASE_URL="mongodb+srv://<usuario>:<senha>@<cluster>/?retryWrites=true&w=majority&appName=Users"
-
-
-Gere o Prisma Client:
-
-npx prisma generate
-
-
-Inicie a API:
-
-yarn dev
-
-
-🔗 A API ficará disponível em:
-http://localhost:3000
+Toda a comunicação com o backend é realizada através de requisições HTTP utilizando Axios.
 
 ---
 
-🔹 3. Rodar o Front-end (React)
+## 🛠️ Tecnologias
 
-Acesse a pasta do front:
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,vite,javascript" />
+</p>
 
-cd cadastro-usuarios
+### Frontend
 
+* React
+* React Router DOM
+* JavaScript
+* Vite
 
-Instale as dependências:
+### Estilização
 
-yarn install
+* Styled Components
 
+### Comunicação
 
-Inicie a aplicação:
-
-yarn start
-
-
-🔗 O front ficará disponível em:
-http://localhost:5173
- (ou a porta configurada pelo Vite/React)
-
- ---
-
-🔑 Funcionalidades
-
-- Criar novo usuário (nome, email, idade)
-
-- Listar todos os usuários
-
-- Atualizar informações de um usuário
-
-- Excluir usuário
+* Axios
 
 ---
 
-📂 Estrutura simplificada do front
+## 🏗️ Arquitetura
 
-cadastro-usuarios-react/
+```text
+Pages
+   │
+   ▼
+Components
+   │
+   ▼
+Services
+   │
+   ▼
+API REST
+```
 
-│── src/
-
-│   ├── components/   # Componentes React
-
-│   ├── services/     # Configuração do Axios
-
-│   ├── styles/       # Estilização com styled-components
-
-│   └── App.jsx
-
-│── package.json
+A aplicação foi organizada utilizando separação de responsabilidades, facilitando manutenção, reutilização e escalabilidade.
 
 ---
 
-✍️ Autor: Lucas Fernandes
+## 📂 Estrutura do Projeto
+
+```text
+src
+│
+├── assets
+│
+├── components
+│   ├── Button
+│   ├── Title
+│   └── TopBackground
+│
+├── pages
+│   ├── Home
+│   └── ListUsers
+│
+├── services
+│   └── api.js
+│
+├── styles
+│   └── GlobalStyles.js
+│
+├── routes.jsx
+└── main.jsx
+```
+
+---
+
+## 🔄 Fluxo da Aplicação
+
+```text
+Usuário
+   │
+   ▼
+Interface React
+   │
+   ▼
+Axios
+   │
+   ▼
+API Node.js
+   │
+   ▼
+MongoDB
+```
+
+---
+
+## 🎥 Demonstração
+
+Vídeo do projeto em funcionamento:
+
+LinkedIn:
+https://www.linkedin.com/posts/lucasfernandes-fullstack_react-reactjs-node-ugcPost-7373852329009287168-AHSr/
+
+---
+
+## 🎯 Objetivos Técnicos
+
+* Desenvolvimento de aplicações React
+* Consumo de APIs REST
+* Organização de projetos Frontend
+* Componentização
+* Gerenciamento de rotas
+* Integração Full Stack
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Lucas Fernandes.
