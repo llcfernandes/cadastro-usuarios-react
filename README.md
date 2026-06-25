@@ -1,14 +1,20 @@
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://cadastro-usuarios-react-eight.vercel.app)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-339933)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248)
+![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748)
+![Status](https://img.shields.io/badge/Status-Online-success)
+
 # 👥 User Management Dashboard
 
 Interface web desenvolvida em React para gerenciamento de usuários, consumindo uma API REST construída com Node.js, Express, Prisma ORM e MongoDB.
 
 O projeto foi desenvolvido com foco na criação de uma aplicação full stack, aplicando conceitos de componentização, gerenciamento de rotas, consumo de APIs, integração frontend/backend e organização escalável de código.
 
----
-
 ## 🌐 Aplicação Online
 
-**Deploy:**
+🚀 **Acesse o projeto:**
 https://cadastro-usuarios-react-eight.vercel.app
 
 ---
@@ -158,14 +164,6 @@ API Node.js
    ▼
 MongoDB
 ```
-
----
-
-## 🎥 Demonstração
-
-### Aplicação em Produção
-
-https://cadastro-usuarios-react-eight.vercel.app
 
 ---
 
